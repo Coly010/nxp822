@@ -6,11 +6,7 @@
   "implicitDependencies": ["app1"],
   "targets": {
     "e2e": {
-      "executor": "@nx/playwright:playwright",
-      "outputs": ["{workspaceRoot}/dist/.playwright/apps/app1-e2e"],
-      "options": {
-        "config": "apps/app1-e2e/playwright.config.ts"
-      }
+      "outputs": ["{workspaceRoot}/dist/.playwright/apps/app1-e2e"]
     }
   }
 }
