@@ -4,9 +4,6 @@
   "projectType": "application",
   "sourceRoot": "apps/app1/src",
   "targets": {
-    "lint": {
-      "executor": "@nx/eslint:lint"
-    },
     "build": {
       "executor": "@nx/vite:build",
       "outputs": ["{options.outputPath}"],
